@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Masa Madre</title>
+        <link rel="icon" href="/sourdough.png" />
       </Head>
 
       <main>
@@ -50,12 +50,11 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.flores-huerta.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Created By: Isaac
         </a>
       </footer>
 
@@ -67,6 +66,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background-color: #12162B;
         }
 
         main {
@@ -76,6 +76,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background-color: #12162B;
         }
 
         footer {
@@ -98,12 +99,12 @@ export default function Home() {
         }
 
         a {
-          color: inherit;
+          color: #EFEFED;
           text-decoration: none;
         }
 
         .title a {
-          color: #0070f3;
+          color: #D51E58;
           text-decoration: none;
         }
 
@@ -122,6 +123,7 @@ export default function Home() {
         .title,
         .description {
           text-align: center;
+          color: #EFEFED;
         }
 
         .description {
@@ -130,7 +132,7 @@ export default function Home() {
         }
 
         code {
-          background: #fafafa;
+          background: #5D6360;
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
@@ -155,7 +157,7 @@ export default function Home() {
           text-align: left;
           color: inherit;
           text-decoration: none;
-          border: 1px solid #eaeaea;
+          border: 1px solid #5D6360;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
         }
@@ -163,8 +165,8 @@ export default function Home() {
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          color: #D51E58;
+          border-color: #EFEFED;
         }
 
         .card h3 {
