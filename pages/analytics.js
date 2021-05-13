@@ -18,7 +18,7 @@ export default function Analytics() {
                 <link rel="icon" href="/sourdough.png" />
             </Head>
             <div className="grid grid-cols-5">
-                <div className="bg-ruby group inline-block relative">
+                <div className="bg-ruby group inline-block fixed w-80">
                     <nav className="flex px-3 py-2 dropdown-menu group inline-flex items-center">
                         <ul className="space-y-2 hidden group-hover:block bg-ruby">
                             <NavItem href="/analytics" text="Analytics" />
