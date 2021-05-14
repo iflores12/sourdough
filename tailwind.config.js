@@ -6,7 +6,8 @@ module.exports = {
       'dark-blue': '#12162B',
       'off-white': '#EAEAEA',
       'ruby': '#D51E58',
-      'dim-gray': '#5D6360'
+      'dim-gray': '#5D6360',
+      'white': '#FFFFFF',
     }),
     textColor: theme => ({
       'dark-blue': '#12162B',
@@ -15,6 +16,12 @@ module.exports = {
       'dim-gray': '#5D6360'
     }),
     divideColor: theme => ({
+      'dark-blue': '#12162B',
+      'off-white': '#EAEAEA',
+      'ruby': '#D51E58',
+      'dim-gray': '#5D6360'
+    }),
+    borderColor: theme => ({
       'dark-blue': '#12162B',
       'off-white': '#EAEAEA',
       'ruby': '#D51E58',
@@ -49,5 +56,7 @@ module.exports = {
   variants: {
     display: ["group-hover"]
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
