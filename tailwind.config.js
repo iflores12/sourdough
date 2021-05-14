@@ -42,7 +42,9 @@ module.exports = {
       '64': '64px'
     }),
     
-    extend: {},
+    extend: {
+      transitionProperty: ['hover', 'focus'],
+    },
   },
   variants: {
     display: ["group-hover"]
